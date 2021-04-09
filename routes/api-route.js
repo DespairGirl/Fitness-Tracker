@@ -22,10 +22,10 @@ router.get('/api/workouts', (req, res) => {
 
 });
 
-router.put("/api/workouts/"+id, (req, res) => {
+router.put("/api/workouts/id", (req, res) => {
 
-    db.Workout.findOneandUpdate(
-        { _id: req.params.id },
+    db.Workout.findByIdAndUpdate(
+         req.params.id ,
         {
             $inc: { totalDuration: req.body.duration },
             $push: { exercises: req.body }
