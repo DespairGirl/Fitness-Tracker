@@ -1,5 +1,8 @@
 # Fitness Tracker
 
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 ## Description
 This is a fitness tracker that connects to a Mongo database using a Mongoose schema. Users are able to add exercises, create workout plans, and track their progress.
@@ -25,7 +28,7 @@ This is a fitness tracker that connects to a Mongo database using a Mongoose sch
 
 
 
-![dashboard](/public/assets/Capture2.png)
+![dashboard](/public/assets/Capture3.png)
 
 
 
@@ -48,3 +51,5 @@ This is a fitness tracker that connects to a Mongo database using a Mongoose sch
 ### IDE & Other Tools
 -  VScode
 -  MongoDB
+
+
