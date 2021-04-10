@@ -28,7 +28,7 @@ This is a fitness tracker that connects to a Mongo database using a Mongoose sch
 
 
 
-![dashboard](/public/assets/Capture3.png)
+![dashboard](/public/assets/Capture3.PNG)
 
 
 
